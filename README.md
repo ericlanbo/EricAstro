@@ -1,4 +1,5 @@
 Advanced astronomical image processing scripts by Eric
+
 PixInsight → Resources → Updates → Manage Repositories
 https://raw.githubusercontent.com/ericlanbo/EricAstro/main/
 
