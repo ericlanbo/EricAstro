@@ -1,0 +1,1 @@
+Advanced astronomical image processing scripts by Eric

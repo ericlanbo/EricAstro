@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0" xmlns="http://www.pixinsight.com/xri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xri http://pixinsight.com/xri/xri-1.0.xsd">
+   <description>
+      <p><b>EricAstro Scripts for PixInsight</b></p>
+      <p>Advanced astronomical image processing scripts by Eric</p>
+      <p>Repository: https://github.com/ericlanbo/EricAstro</p>
+   </description>
+
+   <platform os="all" arch="noarch" version="1.8.9:1.9.0">
+      <package fileName="AdaptiveCoreProtectedStretch-1.0.0.zip"
+               sha1="ed86a2c0da8fe593e3f5b67d35d5e30a72ba6555"
+               type="script"
+               releaseDate="20250101">
+         <title>Adaptive Core-Protected Stretch v1.0.0</title>
+         <description>
+            <p><b>Adaptive Core-Protected Stretch</b> - An intelligent stretching tool specially designed for high dynamic range astronomical targets.</p>
+
+            <p><b>Features:</b></p>
+            <ul>
+               <li><b>Statistical Stretch Algorithm</b> - Pure mathematical stretch based on Franklin Marek's algorithm, guarantees convergence to target median</li>
+               <li><b>Hybrid Stretch Mode</b> - Combines Arcsinh and dark enhancement with mask-based core protection</li>
+               <li><b>Super Auto Mode</b> - One-click automatic three-step processing: Hybrid pre-stretch → Statistical Stretch to 0.25 → Histogram adjustment</li>
+               <li><b>Smart Core Protection</b> - Protects bright core regions from overexposure while enhancing dark details</li>
+               <li><b>Iterative Convergence</b> - Automatic iteration until target median is achieved</li>
+            </ul>
+
+            <p><b>Best for:</b></p>
+            <ul>
+               <li>M42 Orion Nebula</li>
+               <li>NGC7023 Iris Nebula</li>
+               <li>M31 Andromeda Galaxy</li>
+               <li>Other high dynamic range targets</li>
+            </ul>
+
+            <p><b>Acknowledgements:</b></p>
+            <p>This script incorporates the Statistical Stretch algorithm originally developed by Franklin Marek (www.setiastro.com). Licensed under CC BY-NC 4.0.</p>
+
+            <p><b>Author:</b> Eric</p>
+            <p><b>Version:</b> 1.0.0</p>
+            <p><b>Release Date:</b> 2025-01-01</p>
+         </description>
+      </package>
+   </platform>
+</xri>
