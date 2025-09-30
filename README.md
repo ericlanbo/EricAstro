@@ -1,4 +1,6 @@
 Advanced astronomical image processing scripts by Eric
+PixInsight → Resources → Updates → Manage Repositories
+https://raw.githubusercontent.com/ericlanbo/EricAstro/main/
 
 ![高光细节对比](https://github.com/user-attachments/assets/ba9d18f7-0158-4de0-9714-9213be56674e)
 
