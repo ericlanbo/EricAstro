@@ -6,7 +6,7 @@
       <p>Repository: https://github.com/ericlanbo/EricAstro</p>
    </description>
 
-   <platform os="all" arch="noarch" version="1.8.9:1.9.0">
+   <platform os="all" arch="noarch" version="1.8.9:1.9.3">
       <package fileName="AdaptiveCoreProtectedStretch-1.0.0.zip"
                sha1="ed86a2c0da8fe593e3f5b67d35d5e30a72ba6555"
                type="script"
