@@ -7,7 +7,7 @@
    </description>
 
    <platform os="all" arch="noarch" version="1.8.9:1.9.3">
-      <package fileName="AdaptiveCoreProtectedStretch-1.0.1.zip"
+      <package fileName="AdaptiveCoreProtectedStretch.zip"
                sha1="2afd4503316079a5189b18dd9cdfe68cfe9ecb23"
                type="script"
                releaseDate="20250101">
