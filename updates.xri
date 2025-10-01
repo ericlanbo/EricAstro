@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0" xmlns="http://www.pixinsight.com/xri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xri http://pixinsight.com/xri/xri-1.0.xsd">
+   <description>
+      <p><b>EricAstro Scripts for PixInsight</b></p>
+      <p>Advanced astronomical image processing scripts by Eric</p>
+      <p>Repository: https://github.com/ericlanbo/EricAstro</p>
+   </description>
+
+   <platform os="all" arch="noarch" version="1.8.9:1.9.3">
+      <package fileName="AdaptiveCoreProtectedStretch.zip"
+               sha1="2afd4503316079a5189b18dd9cdfe68cfe9ecb23"
+               type="script"
+               releaseDate="20250101">
+         <title>Adaptive Core-Protected Stretch v1.0.1</title>
+         <description>
+            <p><b>Adaptive Core-Protected Stretch v1.0.1</b> - An intelligent stretching tool specially designed for high dynamic range astronomical targets.</p>
+
+            <p><b>What's New in v1.0.1:</b></p>
+            <ul>
+               <li><b>Link RGB Channels Option</b> - Support for linked/unlinked RGB channel stretching, perfect for narrowband images</li>
+               <li><b>Enhanced Super Auto Mode</b> - Upgraded to 4-step automatic stretching with saturation boost</li>
+               <li><b>Auto Console Management</b> - Console automatically shows during processing and hides when complete</li>
+               <li><b>Default Settings Optimized</b> - Super Auto mode and unlinked channels now default for better narrowband processing</li>
+            </ul>
+
+            <p><b>Features:</b></p>
+            <ul>
+               <li><b>Super Auto Mode (Default)</b> - One-click 4-step automatic stretching workflow
+                  <ul>
+                     <li>Step 1: Hybrid pre-stretch with core protection</li>
+                     <li>Step 2: Statistical Stretch to median 0.25</li>
+                     <li>Step 3: Histogram transformation</li>
+                     <li>Step 4: Saturation enhancement</li>
+                  </ul>
+               </li>
+               <li><b>Statistical Stretch</b> - Pure mathematical stretch based on Franklin Marek's algorithm
+                  <ul>
+                     <li>Guaranteed convergence to target median</li>
+                     <li>Iterative refinement (1-5 iterations)</li>
+                     <li>2.7σ black point clipping</li>
+                  </ul>
+               </li>
+               <li><b>Hybrid Stretch</b> - Advanced stretching with highlight protection
+                  <ul>
+                     <li>Arcsinh base stretch for smooth tonal transitions</li>
+                     <li>Intelligent mask generation for core protection</li>
+                     <li>Adaptive strength adjustment</li>
+                  </ul>
+               </li>
+               <li><b>Link RGB Channels</b> - Choose between linked and unlinked stretching
+                  <ul>
+                     <li>Linked: Maintains color balance (for calibrated RGB images)</li>
+                     <li>Unlinked: Independent channel stretching (for narrowband SHO/HOO)</li>
+                  </ul>
+               </li>
+            </ul>
+
+            <p><b>Best for:</b></p>
+            <ul>
+               <li>High dynamic range targets (M42 Orion Nebula, NGC7023 Iris Nebula)</li>
+               <li>Narrowband images (SHO, HOO, HSO combinations)</li>
+               <li>Galaxies with bright cores (M31 Andromeda)</li>
+               <li>Any target requiring highlight protection</li>
+            </ul>
+
+            <p><b>Installation:</b></p>
+            <p>This package will be installed in: SCRIPT → EricPhoto → AdaptiveCoreProtectedStretch</p>
+
+            <p><b>Acknowledgements:</b></p>
+            <p>Statistical Stretch algorithm by Franklin Marek (www.setiastro.com)</p>
+            <p>Licensed under CC BY-NC 4.0</p>
+
+            <p><b>Author:</b> Eric</p>
+            <p><b>License:</b> All Rights Reserved © 2025</p>
+         </description>
+      </package>
+   </platform>
+</xri>
